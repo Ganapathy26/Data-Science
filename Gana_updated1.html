@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1.starbucks-title {
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+            color: #007042;
+            margin: 50px 0;
+            font-family: 'Copperplate Gothic Light', sans-serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        h1.starbucks-title img {
+            width: 60px;
+            height: 60px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #D35400;
+            font-family: 'Copperplate Gothic Light', sans-serif;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 70%;
+            margin: 0 auto 40px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007042;
+            color: white;
+            font-size: 18px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #E8F5E9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #A5D6A7;
+        }
+
+        tr:hover {
+            background-color: #F39C12;
+            color: white;
+        }
+
+        .special-items {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 30px 0;
+        }
+
+        .special-items img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        hr {
+            margin: 40px auto;
+            width: 80%;
+            border: 1px solid #95A5A6;
+        }
+
+        p, h2, ul, h1 {
+            text-align: center;
+            font-size: 16px;
+            color: #007042;
+            font-family: 'aerial', sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 16px;
+			font-family: 'aerial', sans-serif;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin-bottom: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Starbucks Title with Logo -->
+    <h1 class="starbucks-title">
+        <img src="https://th.bing.com/th?id=OIP.FpBTdmS425XMYJ6kJH-fVAHaHd&w=249&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Starbucks Logo">
+        STARBUCKS
+    </h1>
+
+    <h3>Coffee Menu</h3>
+    <table>
+        <tr>
+            <th>Beverage</th>
+            <th>Hot</th>
+            <th>Iced</th>
+            <th>Blended</th>
+        </tr>
+        <tr>
+            <td>Cappuccino</td>
+            <td>$150</td>
+            <td>$180</td>
+            <td>$200</td>
+        </tr>
+        <tr>
+            <td>Fresh Latte</td>
+            <td>$100</td>
+            <td>$180</td>
+            <td>$200</td>
+        </tr>
+        <tr>
+            <td>Mocha</td>
+            <td>$150</td>
+            <td>$180</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Espresso</td>
+            <td>$100</td>
+            <td>$105</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Black Coffee</td>
+            <td>$150</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h3>Tea Menu</h3>
+    <table>
+        <tr>
+            <th>Beverage</th>
+            <th>Hot</th>
+            <th>Iced</th>
+            <th>Add-On</th>
+        </tr>
+        <tr>
+            <td>Pure White Milk</td>
+            <td>$50</td>
+            <td>$10</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td>Taiwan Tea</td>
+            <td>$100</td>
+            <td>$150</td>
+            <td>$250</td>
+        </tr>
+        <tr>
+            <td>Bubble Tea</td>
+            <td>$50</td>
+            <td>$250</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>#007042 Tea</td>
+            <td>$100</td>
+            <td>$140</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Original Tea</td>
+            <td>$120</td>
+            <td>$120</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h3>Special Items</h3>
+    <div class="special-items">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.mWrLKf6zXus1x6NO7tE_pQHaFU&pid=Api&P=0&h=220" alt="Item 1">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.Po54Ma_a-fjJo-3V3XoCIQHaD-&pid=Api&P=0&h=220" alt="Item 2">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.qNP3w9uk0JQMhg47bNBIEwHaEK&pid=Api&P=0&h=220" alt="Item 3">
+    </div>
+
+    <hr>
+
+    <h2>About Our Cafe</h2>
+    <p>STARBUKS CAFE is a simple HTML template <br>provided by zzzz for free to use it for educational purposes.<br></p>
+
+    <hr>
+
+    <h3>Contact Us</h3>
+    <ul>
+        <li>@STARBUKS.com</li>
+        <li>9342364413</li>
+        <li>Coimbatore, Tamil Nadu</li>
+    </ul>
+
+    <hr>
+
+    <h1>WEBSITE BY GANAPATHY (23BDA013)</h1>
+</body>
+
+</html>
